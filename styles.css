@@ -97,7 +97,7 @@ p{
 .item:hover{
     transform: scale(1.02);
     transition-duration: 1s;
-    box-shadow: 0 0 3px 5px rgb(59, 117, 103);
+    box-shadow: 0 0 3px 5px rgb(11, 10, 10);
 }
 
 @media (max-width: 768px){
@@ -123,7 +123,8 @@ p{
 @media (max-width: 560px) {
     .container{
         grid-template-columns: 1fr;
-        width: 100%;
+        width: 100vw;
+        padding: 10px;
     }
     .item:nth-of-type(1){
         grid-column: 1;      
